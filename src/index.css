@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-navy: #073B73;
+    --dark-navy: #062D59;
+    --secondary-teal: #008C8C;
+    --metro-green: #22B573;
+    --light-teal: #DDF6F2;
+    --light-cyan: #E7F7FA;
+    --bg-surface: #F7FAFC;
+    --pure-white: #FFFFFF;
+    --accent-gold: #F4C542;
+    --text-primary: #102A43;
+    --text-secondary: #61758A;
+    --color-success: #22B573;
+    --color-warning: #F4B942;
+    --color-error: #E05252;
+    --color-border: #D9E5EE;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0d1e33;
+    color: var(--text-primary);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Poppins', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Pulse animation for live train marker */
+@keyframes train-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.35);
+    opacity: 0.7;
+  }
+}
+
+.animate-train-pulse {
+  animation: train-pulse 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* Custom scrollbar for mobile lists */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Smart Metro",
+  "description": "Smart Metro System - Smarter Travel. A Better Tomorrow. Route planning, live metro status, station details, and digital ticketing prototype for Pune Metro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Smart Metro",
+  "short_name": "Smart Metro",
+  "description": "Smart Metro System - Smarter Travel. A Better Tomorrow. Route planning, live metro status, station details, and digital ticketing prototype for Pune Metro.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#062D59",
+  "theme_color": "#073B73",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
